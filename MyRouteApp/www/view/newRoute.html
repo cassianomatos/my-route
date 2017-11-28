@@ -1,0 +1,14 @@
+<div class="user_view">Usuário: {{loggedUser}}</div> 
+<div class="jumbotron newroute">
+    <div class="form-items">
+        <input type="text" class="form-control" ng-model="origin" name="origin"  id="origin"  placeholder="Origem">
+        <input type="text" class="form-control" ng-model="destiny" name="destiny" id="destiny" placeholder="Destino">
+    </div>
+    <div class="custom" id="map">
+        <ui-gmap-google-map center='map.center' zoom='map.zoom' options='map.options' events='map.events'>
+        </ui-gmap-google-map>
+    </div>
+</div>
+<a href class="btn btn-primary form-control custom" ng-click="findRoute(origin,destiny)">Buscar</a>
+<a href="#!/menu" class="btn btn-primary form-control custom">Voltar</a>
+ 

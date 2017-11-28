@@ -1,0 +1,101 @@
+.jumbotron{
+/*    margin-top: 20px;*/
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+	text-align: center;
+	height: 80%;
+    background-color: #EAEAEA;
+    border-radius: 25px;
+}
+.text_view{
+    height: 10%;
+    margin-bottom: 5px;
+    border-radius: 15px !important;
+    padding-left: 10px !important;
+}
+.hr_view{
+    border-width: 2px;
+    border-top-color: black !important;
+}
+.ul-nav{
+	margin-top: 10px;	
+}
+.il-nav > *{
+	margin-bottom: 5px;
+    border-radius: 15px !important;
+}
+
+.angular-google-map-container {
+    height: 100%
+}
+#map{
+    height: 100%;
+}
+.custom#map{
+    height: 85%;
+    padding-top: 10px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.form-items{
+    width: 90%;
+    margin-left: 20px;
+}
+.form-items .form-control{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.jumbotron.newroute{
+    padding-top: 5px;
+    margin-bottom: 15px;
+    height: 85%;    
+}
+.jumbotron.login{
+    margin-top: 20px;
+}
+.active{
+    text-align: center;
+}
+.btn.btn-primary.form-control.custom{
+    width: 49%;
+    margin-right: 2px;
+}
+.btn{
+    border-radius: 25px;
+}
+.app_title{
+    font-size: 50px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    color: black;
+}
+.app_subtitle{
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: black;
+}
+.line-chart{
+    height: 300px !important;
+    width: 415px !important; 
+}
+#div_graph{
+    position: absolute;
+    z-index: 1;
+}
+#div_user_feedback > *{
+    position: relative;
+    z-index: 2;
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-weight: bold;
+}
+.user_view{
+    font-family: 'Oswald';
+    margin-left: 175px;
+}
